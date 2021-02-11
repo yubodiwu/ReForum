@@ -41,7 +41,6 @@ class Header extends Component {
       <div className={classnames(appLayout.constraintWidth)}>
         <div className={styles.headerTop}>
           <Logo />
-          <AdminLink />
           <UserMenu
             signedIn={authenticated}
             userName={name || username}

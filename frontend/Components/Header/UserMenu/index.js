@@ -66,6 +66,9 @@ class UserMenu extends Component {
       return (
         <div style={{ position: 'relative' }}>
           <div className={styles.container} onClick={this.toggleSubMenu}>
+            <div className={styles.adminPageLink}>
+              <Link to="http://localhost:8080/admin">Admin</Link>
+            </div>  
             <img className={styles.userAvatar} src={avatar} alt={`${userName} Avatar`} />
             <span className={styles.title}>{userName}</span>
           </div>
