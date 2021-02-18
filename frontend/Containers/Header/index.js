@@ -35,6 +35,7 @@ class Header extends Component {
       name,
       username,
       avatarUrl,
+      role
     } = this.props.user;
 
     return (
@@ -46,6 +47,7 @@ class Header extends Component {
             userName={name || username}
             gitHandler={username}
             avatar={avatarUrl}
+            isAdmin={role}
           />
         </div>
         <NavigationBar
