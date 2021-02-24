@@ -8,7 +8,6 @@ import styles from './styles';
 // components for Header
 import UserMenu from 'Components/Header/UserMenu';
 import Logo from 'Components/Header/Logo';
-import AdminLink from 'Components/Header/AdminLink';
 import NavigationBar from 'Components/Header/NavigationBar';
 import PlaceholderImage from 'SharedStyles/placeholder.jpg';
 
