@@ -31,7 +31,9 @@ class Discussion extends Component {
     } = this.props;
 
     let dateDisplay = moment(discDate);
-    dateDisplay = dateDisplay.from(moment());
+    // dateDisplay = dateDisplay.from(moment());
+    dateDisplay = dateDisplay.toString();
+
 
     let favCount = '';
     if (toggleingFavorite) favCount = 'Toggling Favorite...';

@@ -25,7 +25,8 @@ class Opinion extends Component {
     } = this.props;
 
     let dateDisplay = moment(opDate);
-    dateDisplay = dateDisplay.from(moment());
+    // dateDisplay = dateDisplay.from(moment());
+    dateDisplay = dateDisplay.toString();
 
     const allowDelete = (userId === currentUserId) || (currentUserRole === 'admin');
 
